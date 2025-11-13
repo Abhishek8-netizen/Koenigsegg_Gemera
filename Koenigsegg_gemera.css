@@ -1,0 +1,317 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-family: 'Zen Dots';
+    font-size: 2rem;
+}
+
+#home nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 1.5rem;
+    background-color: rgb(51, 51, 51);
+
+    display: flex;
+    gap: 2rem;
+    padding-left: 5rem;
+    z-index: 7;
+    box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.5);
+}
+
+#home nav a {
+    color: #FF4F00;
+    text-decoration: none;
+    font-family: Audiowide;
+    font-size: 1.2rem;
+
+    transition: color 0.4s ease;
+}
+
+#home nav a:hover {
+    color: white;
+}
+
+#home .title {
+    position: relative;
+    font-family: 'Zen dots';
+    height: auto;
+}
+
+#home .title img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#home .title h1 {
+    position: absolute;
+    top: 38rem;
+    font-size: 3rem;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+#home .gradient_layer {
+    position: absolute;
+    background: linear-gradient(to bottom, transparent 40%, black 100%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#intro {
+    font-family: Audiowide;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#intro p {
+    margin: auto;
+    width: 60rem;
+    line-height: 2.5rem;
+}
+
+/* Equal respect for all */
+
+#equal_respect {
+    background-color: black;
+    padding-top: 8rem;
+    padding-left: 5rem;
+    padding-bottom: 6rem;
+    height: auto;
+}
+
+#equal_respect h1 {
+    color: white;
+}
+
+#equal_respect nav {
+    display: flex;
+    gap: 4rem;
+}
+
+#equal_respect nav button {
+    font-family: 'Zen Dots';
+    font-size: large;
+    background-color: black;
+    border: none;
+    color: white;
+
+    cursor: pointer;
+
+    transition: color 0.4s ease;
+}
+
+#equal_respect #first_button {
+    color: #FF4F00;
+}
+
+
+#equal_respect #equal_respect_features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+    font-family: 'Zen Dots';
+}
+
+#equal_respect_features img {
+    width: 30rem;
+    transition: opacity 0.4s ease;
+}
+
+#equal_respect #description p {
+    width: 30rem;
+    line-height: 2rem;
+    color: white;
+    transition: opacity 0.4s ease;
+}
+
+#equal_respect #description h2 {
+    color: white;
+    transition: opacity 0.4s ease;
+}
+
+/* Specifications */
+
+#specs {
+    padding-left: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 16rem;
+    opacity: 0;
+
+    transition: opacity 0.5s ease;
+}
+
+#specs.show {
+    opacity: 1;
+}
+
+#specs_subsection {
+    display: flex;
+    gap: 3rem;
+}
+
+#specs_subsection div {
+    font-family: Audiowide;
+    background-color: lightgray;
+    padding: 2rem;
+}
+
+#gallery {
+    width: 100%;
+    display: block;
+    margin: auto;
+    transition: transform 0.4s ease;
+}
+
+#gallery.shrink {
+    transform: scale(0.95);
+}
+
+#gallery_div {
+    height: auto;
+    background-color: black;
+}
+
+
+/* interior_gallery */
+
+#interior_gallery {
+    padding-top: 10rem;
+    background-color: black;
+    height: 80rem;
+    padding-bottom: 10rem;
+}
+
+#interior_gallery_card {
+    position: relative;
+}
+
+#interior_gallery_card img {
+    height: auto;
+    position: absolute;
+
+    box-shadow: 7px 7px 7px 6px rgba(0, 0, 0, 0.5);
+
+    transition: transform 0.4s ease;
+}
+
+#interior_gallery_card img:hover {
+    transform: scale(1.05);
+}
+
+#rear {
+    right: 45rem;
+    width: 30rem;
+    top: 12rem;
+}
+
+#console {
+    width: 30rem;
+    left: 35rem;
+    top: 47rem;
+
+}
+
+#seats {
+    width: 30rem;
+    left: 2.2rem;
+    z-index: 3;
+}
+
+#interior_gallery_card p {
+    position: absolute;
+    font-family: 'Zen Dots';
+    color: white;
+    width: 23rem;
+    font-size: 1.2rem;
+
+    left: 60rem;
+    top: 17rem;
+    line-height: 3rem;
+}
+
+#interior_gallery_card h2 {
+    position: absolute;
+    font-family: 'Zen Dots';
+    color: white;
+    left: 60rem;
+    font-size: 2.5rem;
+}
+
+#official_website_redirection {
+    font-family: 'Zen Dots';
+    font-size: 1.5rem;
+    color: white;
+
+    margin-top: 75rem;
+    text-align: center;
+}
+
+#official_website_redirection a {
+    text-decoration: none;
+    color: #FF4F00;
+}
+
+#official_website_redirection a:hover {
+    text-decoration: underline;
+    text-decoration-color: #FF4F00;
+}
+
+/* footer */
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+footer #footer_image_and_quote {
+    background-color: black;
+    position: relative;
+    width: 100%;
+}
+
+footer img {
+    width: 40rem;
+}
+
+footer #footer_gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: linear-gradient(to top, transparent 60%, black),
+        linear-gradient(to bottom, transparent 90%, black),
+        linear-gradient(to right, transparent 50%, black),
+        linear-gradient(to left, transparent 10%, black);
+
+    width: 40rem;
+}
+
+#footer_quote {
+    background-color: black;
+    width: 100%;
+    padding-top: 10rem;
+
+    font-family: 'Audiowide';
+    color: #FF4F00;
+    font-size: 2.3rem;
+    text-align: center;
+}

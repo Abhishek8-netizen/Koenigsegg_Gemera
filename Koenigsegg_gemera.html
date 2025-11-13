@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Zen+Dots&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Koenigsegg_gemera.css">
+</head>
+
+<body>
+    <header id="home">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#equal_respect">Overview</a>
+            <a href="#specs">Specifications</a>
+            <a href="#interior_gallery">Refinement</a>
+        </nav>
+
+        <div class="title">
+            <img src="Pictures/Koenigsegg_gemera.png" alt="Koenigsegg_gemera">
+            <h1>Koenigsegg Gemera</h1>
+            <div class="gradient_layer"></div>
+        </div>
+
+        <div id="intro">
+            <p>
+                The Gemera combines the scintillating performance of a mid-engine two-seater megacar with the
+                practicalities of a full four-seater car, including the luggage space!
+            </p>
+        </div>
+    </header>
+
+    <section id="equal_respect">
+        <h1 class="heading">Equal Respect For All</h1>
+        <nav id="equal_respect_options">
+            <button id="first_button" onclick="change_description(0)">Pure Koenigsegg</button>
+            <button onclick="change_description(1)">Space for four</button>
+            <button onclick="change_description(2)">Creature comforts</button>
+            <button onclick="change_description(3)">Dark Matter</button>
+        </nav>
+
+        <div id="equal_respect_features">
+            <img src="Pictures/Koenigsegg_gemera_1.jpg" alt="Koenigsegg_gemera">
+
+            <div id="description">
+                <h2>Pure Koenigsegg</h2>
+                <p>
+                    As Koenigsegg's first four-seater and with over 1MW of power, the Gemera has pioneered a
+                    revolutionary
+                    new vehicle category - the Mega GT. The Gemera's silhouette is long, sleek and minimal, while still
+                    keeping that iconic Koenigsegg aesthetic
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="specs">
+        <h1 class="heading">Gemera specifications</h1>
+
+        <section id="specs_subsection">
+            <div>
+                <h2>2300 HP</h2>
+                <p>Total output with HV8 and e-motor</p>
+                <br>
+                <h2>1.11 HP</h2>
+                <p>per kg</p>
+            </div>
+
+            <div>
+                <h2>2750 NM</h2>
+                <p>HV8 paired with e-motor</p>
+                <br>
+                <h2>115 L </h2>
+                <p>Fuel Tank</p>
+            </div>
+
+            <div>
+                <h2>850V 14 kWh HV</h2>
+                <p>Battery Pack</p>
+                <br>
+                <h2>9-speed, multi-clutch</h2>
+                <p>Gearbox</p>
+            </div>
+        </section>
+    </section>
+
+    <div id="gallery_div">
+        <img id="gallery" src="Pictures/gallery.png" alt="gallery">
+    </div>
+
+    <section id="interior_gallery">
+        <div id="interior_gallery_card">
+            <img id="seats" src="Pictures/seats.png" alt="seats">
+            <img id="console" src="Pictures/console.jpg" alt="console">
+            <img id="rear" src="Pictures/rear.jpg" alt="rear">
+            <h2>Optimal comfort</h2>
+            <p>
+                Comfortable seating for all - a unique megacar experience that is as enjoyable and roomy for the
+                passengers in the back seat as it is for those in the front
+            </p>
+        </div>
+
+        <p id="official_website_redirection">
+            For more details visit the <a href="https://www.koenigsegg.com/">Official Koenigsegg Website</a>
+        </p>
+    </section>
+
+    <footer>
+        <div id="footer_image_and_quote">
+            <img src="Pictures/rear_fender.jpg" alt="">
+            <div id="footer_gradient"></div>
+        </div>
+
+        <div id="footer_quote">
+            <h2>THE</h2>
+            <h2>SHOW MUST</h2>
+            <h2>GO ON</h2>
+        </div>
+    </footer>
+
+    <script src="Keonigsegg_gemera.js"></script>
+</body>
+
+</html>
