@@ -13,3 +13,15 @@ Features
 - Interactive Interior Gallery : Hovering images subtly enlarge, creating a premium visual effect.
 
 - Smooth Navigation
+
+<br><br>
+
+# Technologies Used
+
+- HTML5 for structure
+
+- CSS3 for layout, animation, & visual design
+
+- JavaScript (Vanilla) for interactivity & observers
+
+- Google Fonts — Audiowide & Zen Dots
