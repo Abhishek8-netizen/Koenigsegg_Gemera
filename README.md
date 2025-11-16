@@ -28,7 +28,15 @@ Features
 <br><br>
 
 # Preview
+![Home_Page](Screenshots/Home_Page.png)
+---
+![Content_one](Screenshots/Content_one.png)
+---
+![Content_two](Screenshots/Content_two.png)
+---
+![Content_three](Screenshots/Content_three.png)
 
+<br><br>
 
 # Credit
 All images, specifications, and vehicle information are sourced from Koenigsegg Automotive AB.
