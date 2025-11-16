@@ -17,7 +17,6 @@ Features
 <br><br>
 
 # Technologies Used
-
 - HTML5 for structure
 
 - CSS3 for layout, animation, & visual design
@@ -25,3 +24,11 @@ Features
 - JavaScript (Vanilla) for interactivity & observers
 
 - Google Fonts — Audiowide & Zen Dots
+
+<br><br>
+
+# Preview
+
+
+# Credit
+All images, specifications, and vehicle information are sourced from Koenigsegg Automotive AB.
